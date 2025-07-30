@@ -15,5 +15,8 @@ public class SplitAndReverseStream {
         // Optionally, join back to form a reversed sentence
         String finalOutput = String.join(" ", reversedWords);
         System.out.println(finalOutput); // avaJ si lufrewoP
+
+        // List<String> list1 = Arrays.stream(sentence.split(" ")).map(x -> new StringBuilder(x).reverse().toString()).collect(Collectors.toList());
+        // System.out.println(list1);
     }
 }
